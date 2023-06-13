@@ -26,11 +26,7 @@ const Login = () => {
               <label htmlFor="email" className="form-label text-light">
                 Email
               </label>
-              <input
-                type="email"
-                className="form-control text-light"
-                name="email"
-              />
+              <input type="email" className="form-control " name="email" />
             </div>
             <div className="mb-4">
               <label htmlFor="email" className="form-label text-light">
@@ -38,7 +34,7 @@ const Login = () => {
               </label>
               <input
                 type="password"
-                className="form-control text-light"
+                className="form-control "
                 name="password"
               />
             </div>
